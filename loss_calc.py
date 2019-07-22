@@ -1,8 +1,8 @@
 #!/bin/python
 # rewrite of loss_calc.py
+# written 07/2019
 
 stk = input('Stock symbol?')
-stku = stk.upper()
 prompt = 'What is the buy_price price?\n'
 buy_price = input(prompt)
 buy_price = float(buy_price)
@@ -24,7 +24,7 @@ y = 3
 
 f = open("lcTest.txt", "a")
 f.write("\n")
-txt = "{} -- {}".format(stku,buy_price)
+txt = "{} -- {}".format(stk.upper(),buy_price)
 f.write(txt)
 f.write("\n")
 f.write(str(txt1))
@@ -60,3 +60,4 @@ else:
     result = (target_price / buy_price - 1) * 100
     result = float(result)
 print('Difference is ',round(result,2),' percent')
+
