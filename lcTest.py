@@ -1,5 +1,6 @@
 #!/bin/python
 # rewrite of loss_calc.py
+# written 07/2019
 
 stk = input('Stock symbol?')
 stku = stk.upper()
