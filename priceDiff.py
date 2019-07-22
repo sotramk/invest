@@ -1,6 +1,6 @@
 #!/bin/python
 
-# Program to calculate the spread between prices
+# Program to calculate the spread between two prices
 
 # Get information from user
 
