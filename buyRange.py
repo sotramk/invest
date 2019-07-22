@@ -1,7 +1,7 @@
 #!/bin/python
 
 # This is a program to calculate a buy range for a proper buy point.
-# 5% added to the proper buy point.
+# It adds 5% to the proper buy point.
 
 
 def stkData():
