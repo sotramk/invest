@@ -7,18 +7,15 @@ prompt = 'What is the buy_price price?\n'
 buy_price = input(prompt)
 buy_price = float(buy_price)
 firstTarget = buy_price * 1.05
-firstTarget = round(firstTarget,2)
 secoundTarget = buy_price  * 1.10
-secoundTarget = round(secoundTarget,2)
 thirdTarget = buy_price * 1.23
-thirdTarget = round(thirdTarget,2)
 print('For a purchase price of ',buy_price)
-print('First target ',firstTarget)
-txt1 = "First target -- {}".format(firstTarget)
-print('Secound target ',secoundTarget)
-txt2 = "Secound target -- {}".format(secoundTarget)
-print('Third target ',thirdTarget)
-txt3 = "Third target -- {}".format(thirdTarget)
+txt1 = "First target -- {:.2f}".format(firstTarget)
+print(txt1)
+txt2 = "Secound target -- {:.2f}".format(secoundTarget)
+print(txt2)
+txt3 = "Third target -- {:.2f}".format(thirdTarget)
+print(txt3)
 pct = ( (.97, .96, .95, .94, .93, .92) )
 y = 3
 
