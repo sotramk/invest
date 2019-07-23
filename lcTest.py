@@ -2,6 +2,8 @@
 # rewrite of loss_calc.py
 # written 07/2019
 
+# Get stock symbol and purchase  price from user.
+
 stk = input('Stock symbol?')
 prompt = 'What is the buy_price price?\n'
 buy_price = input(prompt)
