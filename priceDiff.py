@@ -12,6 +12,7 @@ targetPrice = input(prompt)
 targetPrice = float(targetPrice)
 
 # calculate percentage difference of prices
+
 if currentPrice > targetPrice:
     result = (currentPrice / targetPrice - 1) * 100
     result = float(result)
