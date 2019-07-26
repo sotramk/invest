@@ -1,5 +1,6 @@
 #!/bin/python
 # rewrite of loss_calc.py
+# Program to calculate profit goals and stoploss points from a buy point.
 # written 07/2019
 
 # Get stock symbol and purchase  price from user.
