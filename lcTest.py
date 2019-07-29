@@ -4,6 +4,7 @@
 # written 07/2019
 
 # Get stock symbol and purchase  price from user.
+# Print output to screen.
 
 stk = input('Stock symbol?')
 prompt = 'What is the buy_price price?\n'
@@ -21,6 +22,8 @@ txt3 = "Third target -- {:.2f}".format(thirdTarget)
 print(txt3)
 pct = ( (.97, .96, .95, .94, .93, .92) )
 y = 3
+
+# Write to a text file.
 
 f = open("lcTest.txt", "a")
 f.write("\n")
@@ -45,14 +48,16 @@ for i in pct:
     y = y + 1
 f.close()
 
-# Program to calculate the spread between prices
+# Program to calculate the spread between prices.
 
-# Get information from user
+# Get information from user.
+
 prompt = 'What is the current price?\n'
 target_price = input(prompt)
 target_price = float(target_price)
 
-# calculate percentage difference of prices
+# Calculate percentage difference of prices.
+
 if buy_price > target_price:
     result = (buy_price / target_price - 1) * 100
     result = float(result)
