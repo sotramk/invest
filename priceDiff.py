@@ -1,6 +1,6 @@
 #!/bin/python
 
-# Program to calculate the spread between two prices
+# Program to calculate the spread between two prices.
 
 # Get information from user
 
@@ -12,6 +12,7 @@ targetPrice = input(prompt)
 targetPrice = float(targetPrice)
 
 # calculate percentage difference of prices
+
 if currentPrice > targetPrice:
     result = (currentPrice / targetPrice - 1) * 100
     result = float(result)
