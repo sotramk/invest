@@ -5,6 +5,8 @@
 # Get information from user
 
 def inpPD():
+    """ Return the price difference between two prices as a %."""
+
     prompt = 'What is the current price?\n'
     currentPrice = input(prompt)
     if currentPrice == '':
