@@ -14,8 +14,7 @@ def inpPD():
     else:
         currentPrice = float(currentPrice)
         prompt = 'What is the target price?\n'
-        targetPrice = input(prompt)
-        targetPrice = float(targetPrice)
+        targetPrice = float(input(prompt))
 
 # calculate percentage difference of prices
 
@@ -28,4 +27,5 @@ def inpPD():
         print('Difference is ',round(result,2),' percent\n')
         inpPD()
 inpPD()
+
 
