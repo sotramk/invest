@@ -8,8 +8,7 @@
 
 stk = input('Stock symbol?')
 prompt = 'What is the buy_price price?\n'
-buy_price = input(prompt)
-buy_price = float(buy_price)
+buy_price = float(input(prompt))
 firstTarget = buy_price * 1.05
 secoundTarget = buy_price  * 1.10
 thirdTarget = buy_price * 1.23
