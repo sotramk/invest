@@ -24,7 +24,7 @@ y = 3
 
 # Write to a text file.
 
-f = open("lcTest.txt", "a")
+f = open("/home/sot/Desktop/lcTest.txt", "a")
 f.write("\n")
 txt = "{} -- {}".format(stk.upper(),buy_price)
 f.write(txt)
