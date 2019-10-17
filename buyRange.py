@@ -15,7 +15,7 @@ def stkData():
     f.write("\n")
     f.write("\n")
 
-f = open("buyRange.txt", "a")
+f = open("/home/sot/buyRange.txt", "a")
 while True:
     i = input('Symbol? ')
     if i == '':
