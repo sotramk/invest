@@ -52,7 +52,8 @@ f.close()
 # Get information from user.
 
 prompt = 'What is the current price?\n'
-target_price = float(input(prompt))
+target_price = input(prompt)
+target_price = float(target_price)
 
 # Calculate percentage difference of prices.
 
