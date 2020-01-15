@@ -24,7 +24,7 @@ y = 3
 
 # Write to a text file.
 
-f = open("/home/sot/Desktop/lcTest.txt", "a")
+f = open("/home/sot/Documents/invest/lcTest.txt", "a")
 f.write("\n")
 txt = "{} -- {}".format(stk.upper(),buy_price)
 f.write(txt)
@@ -52,7 +52,8 @@ f.close()
 # Get information from user.
 
 prompt = 'What is the current price?\n'
-target_price = float(input(prompt))
+target_price = input(prompt)
+target_price = float(target_price)
 
 # Calculate percentage difference of prices.
 
