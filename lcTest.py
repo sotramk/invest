@@ -66,4 +66,4 @@ if buy_price > target_price:
 else:
     result = (target_price / buy_price - 1) * 100
     result = float(result)
- print('Difference is ', round(result, 2), ' percent')
+    print('Difference is ', round(result, 2), ' percent')
